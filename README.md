@@ -17,20 +17,22 @@ This program allows you to **Add, View, Update, and Delete** student information
 
 ```bash
 git clone https://github.com/SudhanshuD13/Student-Management-Java.git
+```
 
-Navigate to the project directory:
-
+2. Navigate to the project directory:
+```bash
 cd Student-Management-Java
+```
 
-
-Compile the Java file:
-
+3. Compile the Java file:
+```bash
 javac StudentManagement.java
+```
 
-
-Run the program:
-
+4. Run the program:
+```bash
 java StudentManagement
+```
 
 Sample Output
 --- Student Management System ---
@@ -39,6 +41,7 @@ Sample Output
 3. Update Student
 4. Delete Student
 5. Exit
+```
 Enter your choice: 1
 Enter ID: 101
 Enter name: Sudhanshu
@@ -47,15 +50,13 @@ Student added successfully!
 
 --- Student Records ---
 ID: 101 | Name: Sudhanshu | Marks: 89.5
+```
 
-Author
+## Author
+**Sudhanshu Dubey**
 
-Sudhanshu Dubey
+## Notes
 
-Notes
-
-Ensure you have Java installed (JDK 8 or higher).
-
+*Ensure you have Java installed (JDK 8 or higher).
 Unique student IDs are required.
-
-Invalid operations (like updating/deleting a non-existent student) are handled gracefully
+Invalid operations (like updating/deleting a non-existent student) are handled gracefully.*
